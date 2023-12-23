@@ -71,6 +71,9 @@ const GlobalStyle = createGlobalStyle`
     -webkit-appearance: none;
     appearance: none;
   }
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 const client = new QueryClient();
